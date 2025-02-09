@@ -3,7 +3,7 @@ set -eu
 
 if ! command -v just /dev/null 2>&1; then
     echo "no just binary found; not running" >&2
-    exit 0
+    exit 1
 fi
 
 status=0
