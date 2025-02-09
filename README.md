@@ -7,8 +7,8 @@ files.
 You must have `just` installed on your system for this hook to work.
 
 ```yaml
-- repo: https://github.com/instrument/pre-commit-justfile
-  rev: 'main'
+- repo: https://github.com/DISTREAT/pre-commit-just
+  rev: v0.1.0
   hooks:
     - id: format-justfile
 ```
